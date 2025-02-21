@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# مدیریت اطلاعات با استفاده از API در React (Project for learning)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+این پروژه یک برنامه وب با استفاده از React است که اطلاعات را به صورت داینامیک از API دریافت می‌کند و در کامپوننت‌ها نمایش می‌دهد. هدف این پروژه آموزش نحوه تعامل با API و مدیریت داده‌ها در React است.
 
-## Available Scripts
+## ویژگی‌ها:
+✔ دریافت اطلاعات از API: اطلاعات به صورت داینامیک از API بارگذاری شده و در کامپوننت‌ها نمایش داده می‌شود.
 
-In the project directory, you can run:
+✔ مدیریت وضعیت با React Hooks: استفاده از useState و useEffect برای مدیریت وضعیت و تعاملات کاربر.
 
-### `npm start`
+✔ ویرایش و حذف مقالات: پیاده‌سازی قابلیت‌هایی مانند ویرایش و حذف مقالات با استفاده از درخواست‌های Axios به API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔ رابط کاربری تعاملی: طراحی رابط کاربری با دکمه‌های کاربردی برای تغییر و مدیریت اطلاعات.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔ ساختار ماژولار و انعطاف‌پذیر: ایجاد ساختار ماژولار برای استفاده مجدد از کامپوننت‌ها و افزایش مقیاس‌پذیری پروژه.
 
-### `npm test`
+✔ هماهنگی بین کلاینت و سرور: تجربه عملی در مدیریت داده‌ها و هماهنگی بین کلاینت و سرور با استفاده از React Hooks.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## فناوری‌ها:
+فرانت‌اند: React.js
 
-### `npm run build`
+مدیریت وضعیت: React Hooks (useState, useEffect, useParams)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+درخواست‌های HTTP: Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+رابط کاربری: HTML, CSS, Bootstrap (یا هر فریمورک مورد استفاده)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## چالش‌ها و دستاوردها:
+✅ تعامل با API: یادگیری نحوه ارتباط با API و مدیریت داده‌ها در پروژه‌های واقعی.
 
-### `npm run eject`
+✅ ویرایش و حذف داده‌ها: پیاده‌سازی قابلیت‌های ویرایش و حذف اطلاعات با استفاده از درخواست‌های Axios.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ مدیریت وضعیت پیچیده‌تر: استفاده از useState و useEffect برای مدیریت وضعیت‌های مختلف در پروژه.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ ساختار ماژولار: ساختن یک پروژه مقیاس‌پذیر با استفاده از کامپوننت‌های قابل استفاده مجدد.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## مهارت‌ها:
+React.js · Axios · React Hooks · API Integration · UI/UX Design · State Management · Modular Design · CRUD Operations
