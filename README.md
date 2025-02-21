@@ -35,3 +35,19 @@
 
 ## مهارت‌ها:
 React.js · Axios · React Hooks · API Integration · UI/UX Design · State Management · Modular Design · CRUD Operations
+
+
+
+
+## چگونه نصب کنیم؟ (Installation)
+### 1. ابتدا ریپازیتوری را کلون کنید:
+git clone https://github.com/Mehdi-ORG/API-project.git
+
+### 2. وارد پوشه پروژه شوید:
+cd API-project
+
+### 3. پکیج‌های موردنیاز را نصب کنید:
+yarn install   # یا npm install
+
+### 4. پروژه را اجرا کنید:
+yarn start     # یا npm start
